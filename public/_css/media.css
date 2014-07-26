@@ -1,0 +1,243 @@
+/* Smartphones Landscape */
+@media only screen and (orientation : landscape) and (min-width : 321px) and (max-width : 650px),only screen and (orientation : portrait) and (min-width : 320px) and (max-width : 650px){
+	body{
+		margin: 0 0 285px;
+		overflow-x:hidden;
+	}
+	#resume-controls, .intro-container, #grid-960-nav{
+		display:none !important;
+	}
+	#grid-960{
+		height:0;
+	}
+	#nav-container{
+		position:fixed;
+		width:100%;
+		height:50px;
+		display:block;
+	}
+	.mobile-nav{
+		height:50px;
+		display:block;
+	}
+	.mobile-nav a img{
+		position:absolute;
+		right:0;
+		top:0;
+	}
+	#nav-container .mobile-nav p{
+		margin:0;
+		padding:5px 0 0 0;
+		text-align:left;
+		margin-left:4%;
+	}
+	.mobile-nav a, .mobile-nav a:hover, .mobile-nav a:visited{
+		color:#fff;
+		text-decoration:none;
+		font-size:1em;
+		padding:0;
+		margin:0;
+	}
+	.navigation{	
+		display:none;
+	}
+	.navigation.toggled{
+		width:100%;
+		padding-bottom:10px;
+		margin-top:0px;
+		position:relative;
+		background:#2980B9;
+		display:block;
+		border-bottom:solid 1px #fff;
+	}
+	ul.navList{
+		padding:0;
+	}
+	ul.navList li {
+		padding-top:10px;
+		height:auto;
+	}
+	ul.navList li a, ul.navList li a:hover, ul.navList li a:visited {
+		font-size:.9em;
+		padding:0;
+		height: auto;
+	}
+	.portfolio-item{
+		height:auto;
+		border-bottom:solid 1px #3498DB;
+	}
+	.portfolio-item:last-of-type{
+		border-bottom:0;
+	}
+	.portfolio-item, .main-content, #resume-container{
+		margin-left:2%;
+		margin-right:2%;
+		width:96%;
+	}
+	.main-content{
+		padding-top:60px;
+	}
+	.footer-things, .copyright-info, .contact-info, #footer-container,#contact-container{
+		width:100%;
+		display:block;
+		height:auto;
+		float: none;
+		text-align: left;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.copyright_warning{
+		clear:both;
+		width:auto;
+	}
+	.copyright-info{
+		font-size:.8em;
+	}
+	#footer-container{
+		height:235px;
+		font-size:.9em;
+	}
+	#contact-container{
+		line-height:0;
+	}
+	span.span-pipe{
+		display:none;
+	}
+	span.contact-anchor{
+		padding:0;
+		display:block;
+	}
+	.resume li, .resume ul, .resume h1, .resume h3, .resume p{
+		margin-left:2%;
+		margin-right:4%;
+	}
+	.resume, .wrap-me, .footer-things{
+		width:98%;
+		position:relative;
+		display:block;
+		height:auto;
+		float:none;
+	}
+	.main-content .project-detail {
+		margin:0;
+	}
+	.main-content .project-detail .project-thumbnail{
+		margin:0;
+		float:none;
+	}
+	#footer-container{
+		padding-bottom:15px;
+	}
+	.copyright-info p{
+		margin-bottom:0;
+	}
+	#contact-container{
+		line-height:0;
+		height:30px;
+	}
+	span.contact-anchor{
+		width:100%;
+	}
+	.anchor-phone{
+		text-align:center;
+	}
+	span.anchor-linkedin, span.anchor-email{
+		display:none;
+	}
+	.main-content .project-detail img{
+		width:100%;
+		height:auto;		
+	}
+	#contact-form-container{
+		width:100%;
+	}
+	.ccRight span,.ccLeft span{
+		margin:0;
+		padding:0;
+	}
+	.contactColumn{
+		padding:20px 0 0;
+		width:100%;
+	}
+}
+/* Desktop - Small Screen */
+@media only screen and (min-width : 650px) and (max-width:980px){
+	.intro-header-container, .navigation, #nav-container,.copyright_warning{
+		width:100%;
+		display:block;
+		height:auto;
+	}
+	.copyright_warning{
+		clear:both;
+		width:auto;
+	}
+	.main-content.header-fixed{
+		margin-top:85px;
+	}
+	.intro-vid-container #intro-video{
+		width:auto;
+		height:500px;
+	}
+	span.span-pipe{
+		width:auto;
+		display:inline-block;
+	}
+	span.contact-anchor{
+		width:auto;
+		padding:0 10px;
+	}
+	#footer-container{
+		font-size:.9em;
+	}
+	.footer-things, .main-content,#resume-container{
+		margin-left:2%;
+		margin-right:2%;
+		width:96%;
+	}
+	.contact-info, .copyright-info, .wrap-me, ul.navList li,ul.navList{
+		margin:0;
+		padding:0;
+	}
+	.contact-info{
+		width:38%;
+	}
+	.copyright-info{
+		width:62%;
+	}
+	.wrap-me{
+		width:50%;
+	}
+	#grid-960{
+		height:0;
+	}
+	#grid-960-nav{
+		display:none !important;
+	}
+	.portfolio-item{
+		margin-left:2%;
+		margin-right:2%;
+		width:46%;
+	}
+	ul.navList li a, ul.navList li a:hover, ul.navList li a:visited{
+		text-decoration: none;
+		display:table-cell;
+		padding:0 10px;
+		height: 50px;
+		vertical-align:middle;
+	}
+	ul.navList li{
+		height:auto;
+		vertical-align:middle;
+		width:auto;
+	}
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 981px) {
+
+}
+/* iPad Landscape ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	#grid-960-nav{
+		display:none;
+	}
+}

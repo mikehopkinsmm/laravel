@@ -1,0 +1,35 @@
+body{
+	font-family:sans-serif;
+}
+h2{
+	font-size:1em;
+}
+hr{
+	margin:0;
+	padding:0;
+}
+p, ul{font-size:.8em;
+	text-align:justify;
+	margin-left:2%;
+	margin-right:2%;
+	padding:0;
+}
+li{
+	padding:0;
+	margin:0;
+	list-style:circle;
+}
+.print-hide, button, iframe, #cboxOverlay, #colorbox, #resume-controls, .resume-screen-title, .intro-container, #nav-container, #footer-container, #contact-container{
+	visibility:hidden;
+	display:none;
+}
+.resume-print{
+	display:block;
+}
+.resume-page-break{
+	page-break-before: always;
+}
+a, a:visited, a:hover{
+	text-decoration:none;
+	color:#000;
+}
